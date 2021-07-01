@@ -1,3 +1,4 @@
 markdown: kramdown
 baseurl: '/bms-jekyll'
 exclude: ['README.md']
+permalink: pretty
