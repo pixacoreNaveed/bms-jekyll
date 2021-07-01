@@ -1,0 +1,9 @@
+.header-container {
+    background: url('../images/galaxy.jpeg') center center no-repeat;
+    background-size: cover;
+}
+
+.trial-header {
+    background: url('../images/virus.jpeg') center center no-repeat;
+    background-size: cover;
+}

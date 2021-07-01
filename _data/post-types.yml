@@ -1,0 +1,11 @@
+- title: Why we need to use CSS
+  folder: CSS
+  content: 'How CSS is important'
+
+- title: Why we need to use HTML
+  folder: HTML
+  content: 'How HTML is important'
+
+- title: Why we need to use JavaScript
+  folder: JavaScript
+  content: 'How JavaScript is important'

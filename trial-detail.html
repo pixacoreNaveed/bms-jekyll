@@ -1,6 +1,16 @@
 ---
 layout: trial-detail
+title: Single Trials Detail Page
 ---
 
 <h2>Trial Listing Page</h2>
 <p>Trial Listing Page Section</p>
+
+<ol>
+    {% for post in site.data.post-types %}
+    <li>
+        <a href="{{site.baseurl}}/post/{{post.folder}}">{{post.title}}</a>
+        {{post.content}}
+    </li>
+    {% endfor %}
+</ol>
