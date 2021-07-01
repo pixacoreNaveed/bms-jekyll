@@ -5,24 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMS Micorsite Jekyll</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/common/style.css">
 </head>
 <body>
     <header>
         <h1>
             BMS Microsite
         </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="trial-listing.html">Trial Listing</a>
-                </li>
-            </ul>
-        </nav>
+        {% include nav.html navclass='nav-top' %}
     </header>
 {{ content }}
-
+<footer>
+    {% include nav.html navclass='nav-bottom' %}
+    <span>&copy; Copyright | 2021. All rights reserved.</span>
+</footer>
 </body>
 </html>
