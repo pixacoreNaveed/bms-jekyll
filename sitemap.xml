@@ -11,6 +11,6 @@
     {% for page in site.pages %}
         {% if page.layout%}
             {% include sitemap-entry.xml entry=page %}
-        {% endfor %}
+        {% endif %}
     {% endfor %}
 </urlset>
